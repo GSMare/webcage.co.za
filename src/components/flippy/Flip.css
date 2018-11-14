@@ -1,0 +1,19 @@
+.Flip {
+  text-align: center;
+  display: flex;
+}
+
+#container_flip {
+  margin-bottom: 50px;
+  display: block;
+  justify-content: space-evenly;
+  flex-flow: column wrap;
+  background-color: #252525;
+  align-items: center;
+}
+
+.flippy-container {
+  margin-top: 50px;
+  border: 4mm ridge rgb(237, 125, 49, .9);
+  background: url(./media/card1-bg.jpg);
+}
