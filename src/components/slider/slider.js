@@ -23,7 +23,7 @@ const content = [
 		Cube: <Cube2 />,
 		title: 'Tools & Skills',
 		description:
-		'',
+		'Clean and sustainable. All sites are coded with performance and functionality in mind, no matter if it`s a small business landing page or large web application, the best practices and tools are used.',
 		button: 'Discover',
 		image: '',
 		user: 'Web Development',
@@ -52,8 +52,8 @@ const AppSlider = props => {
 						style={{ background: `url('${item.image}') no-repeat center center` }}
 					>
 						<div className="inner">
-							<p>{item.Cube}</p>
 							<h1>{item.title}</h1>
+							<p>{item.Cube}</p>
 							<p>{item.description}</p>
 						</div>
 						<section>

@@ -44,7 +44,7 @@ page {
 
 .box-face--is-back3 {
   transform: translateZ(-50px) rotateY(180deg);
-  background-color: #eee;
+  background: no-repeat center/50% url("./media/nativescript-img.png");
 }
 .box-face--is-right3 {
   transform: rotateY(-270deg) translateX(50px);

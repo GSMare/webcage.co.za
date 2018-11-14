@@ -43,8 +43,8 @@ const DefaultCardContents = ({ children }) => (
         flexDirection: 'column', 
       }}>
       <p>I am a very curious person and also sure that is the reason why I started my career in IT because there is always samething new to learn.</p>
-      <p>My career started as a technician in IT and Office Automation and slowly converted as a Web Developer over time as I got more and more intereste and finaly found something I love.</p>
-      <p>But as much as I enjoy spending time behind my computer, I enjoy the outdoors and endurance sport as much.</p>
+      <p>My career started as a technician in IT and Office Automation and slowly converted as a Web Developer over time as I got more and more interested and finally found something I love.</p>
+      <p>Accept for as much as I enjoy spending time behind my computer, I enjoy the outdoors and endurance sport just as much.</p>
       <span
         style={{
           fontSize: '12px',
