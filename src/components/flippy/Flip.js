@@ -7,8 +7,8 @@ class Flip extends Component {
   render() {
     return (
       <div id="container_flip" className="flex">
-        <div className="row">
-          <div className="col-12">
+        <div className="row justify-content-md-center">
+          <div className="col-10">
             <Flip1 />
           </div>
           <div className="col-sm-6">

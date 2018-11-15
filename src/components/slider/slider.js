@@ -7,6 +7,7 @@ import './styles.css';
 import Cube1 from '../cube/cube1';
 import Cube2 from '../cube2/cube2';
 import Cube3 from '../cube3/cube3';
+import Thumbsup from './media/Thumbsup.png';
 
 const content = [
 	{
@@ -17,7 +18,7 @@ const content = [
 		button: 'Read More',
 		image: '',
 		user: 'UI/UX',
-		userProfile: 'https://serv13.registerdomain.co.za:2083/cpsess5107406925/viewer/home%2fwebcagec%2fpublic_html%2fcgi-bin/Thumbsup.png',
+		//userProfile: 'https://serv13.registerdomain.co.za:2083/cpsess5107406925/viewer/home%2fwebcagec%2fpublic_html%2fcgi-bin/Thumbsup.png',
 	},
 	{
 		Cube: <Cube2 />,
@@ -27,7 +28,7 @@ const content = [
 		button: 'Discover',
 		image: '',
 		user: 'Web Development',
-		userProfile: 'https://serv13.registerdomain.co.za:2083/cpsess5107406925/viewer/home%2fwebcagec%2fpublic_html%2fcgi-bin/Thumbsup.png',
+		//userProfile: 'https://serv13.registerdomain.co.za:2083/cpsess5107406925/viewer/home%2fwebcagec%2fpublic_html%2fcgi-bin/Thumbsup.png',
 	},
 	{
 		Cube: <Cube3 />,
@@ -37,7 +38,7 @@ const content = [
 		button: 'CONTACT ME',
 		image: '',
 		user: 'App Development',
-		userProfile: 'https://serv13.registerdomain.co.za:2083/cpsess5107406925/viewer/home%2fwebcagec%2fpublic_html%2fcgi-bin/Thumbsup.png',
+		//userProfile: 'https://serv13.registerdomain.co.za:2083/cpsess5107406925/viewer/home%2fwebcagec%2fpublic_html%2fcgi-bin/Thumbsup.png',
 	}
 ];
 
@@ -57,7 +58,7 @@ const AppSlider = props => {
 							<p>{item.description}</p>
 						</div>
 						<section>
-							<img src={item.userProfile} alt={item.user} />
+							<img src={Thumbsup} alt={item.user} />
 							<span>
 								Posted by <strong>{item.user}</strong>
 							</span>
