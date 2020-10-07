@@ -9,7 +9,6 @@ const FlippyStyle = {
   textAlign: 'center',
   color: '#FFF',
   fontFamily: 'sans-serif',
-  fontSize: '20px',
   justifyContent: 'center'
 }
 
@@ -22,16 +21,11 @@ const DefaultCardContents = ({ children }) => (
         justifyContent: 'center',
         flexDirection: 'column'
       }}>
-      <img src={header_pp} style={{ maxHeight: '70%' }} className="rounded-bottom" alt="landing" />
+      <img src={header_pp} style={{ width: '50%', maxHeight: '90%' }} className="rounded-bottom" alt="landing" />
       <hr />
-      <h1>ABOUT ME</h1>
+      <h1>More About Me...</h1>
       <span
-        style={{
-          fontSize: '12px',
-          position: 'absolute',
-          bottom: '10px',
-          width: '100%'
-        }}>
+        className="mytext">
         {children}<br />
       </span>
     </FrontSide>

@@ -109,6 +109,7 @@ button:hover {
 
 .slider-content {
   text-align: center;
+  height: 100vh;
 }
 
 .slider-content .inner {
@@ -130,24 +131,26 @@ button:hover {
 .slider-content .inner h1 {
   font-weight: 600;
   margin: 0 auto;
-  max-width: 840px;
+  max-width: 90vw;
   color: rgb(226, 223, 223);
-  font-size: 52px;
-  line-height: 1;
+  
+  font-size: calc(100% + 3vw + 1vh);
+  line-height: 50px;
 }
 
 .slider-content .inner p {
   color: #FFFFFF;
-  font-size: 20px;
-  line-height: 1.5;
+  /* font-size: 20px; */
+  font-size: calc(100% + 1vw + 0.5vh);
+  line-height: 1;
   margin: 20px auto 50px;
   max-width: 640px;
 }
 
 .slider-content section {
   position: absolute;
-  bottom: 20px;
-  left: 20px;
+  bottom: 10px;
+  left: 10px;
 }
 
 .slider-content section span {
@@ -180,13 +183,13 @@ button:hover {
 
 @media (max-height: 500px) {
   .slider-wrapper, .slide {
-    height: calc(100vh - 75px);
+    /* height: calc(100vh - 75px); */
   }    
 }
 
 @media (max-width: 640px) {
   .slider-wrapper, .slide {
-    height: calc(80vh - 75px);
+    /* height: calc(100vh - 75px); */
   }    
 }
 

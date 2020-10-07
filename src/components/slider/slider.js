@@ -57,12 +57,11 @@ const AppSlider = props => {
 							<p>{item.Cube}</p>
 							<p>{item.description}</p>
 						</div>
-						<section>
+						<section style={{marginBottom: 0}}>
 							<img src={Thumbsup} alt={item.user} />
-							<span>
-								Posted by <strong>{item.user}</strong>
-							</span>
+							
 						</section>
+						
 					</div>
 				))}
 			</Slider>
