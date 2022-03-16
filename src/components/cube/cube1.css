@@ -1,3 +1,5 @@
+
+
 /* page1 {
   color: #222;
   display: flex;
@@ -42,6 +44,7 @@
   box-shadow: inset 0px 0px 50px #555;
 } */
 
+
 .box-face--is-back1 {
   transform: translateZ(-50px) rotateY(180deg);
   background: no-repeat center/80% url("./media/css-img.png");
@@ -69,7 +72,10 @@
 .box-face--is-front1 {
   transform: translateZ(50px);
   background: no-repeat center/80% url("./media/html-img.png");
+
 }
+
+
 /* 
 @keyframes spin {
   from { transform: rotateY(0); }
@@ -105,3 +111,4 @@
   transform: rotateX(90deg) translateY(50px);
   transform-origin: bottom center;
 } */
+
