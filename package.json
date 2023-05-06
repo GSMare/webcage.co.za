@@ -11,7 +11,7 @@
     "react-animated-slider": "^1.1.4",
     "react-dom": "^16.6.0",
     "react-lazy-hero": "^1.0.0",
-    "react-scripts": "2.0.5",
+    "react-scripts": "5.0.1",
     "styled-components": "^4.0.3"
   },
   "scripts": {
